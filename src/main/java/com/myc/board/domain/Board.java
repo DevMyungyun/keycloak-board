@@ -14,7 +14,6 @@ import lombok.Setter;
 
 @Entity
 @Getter
-@Setter
 @NoArgsConstructor(access = AccessLevel.MODULE.PROTECTED)
 public class Board extends BaseTimeEntity {
     @Id
