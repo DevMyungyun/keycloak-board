@@ -22,7 +22,7 @@ public class Board extends BaseTimeEntity {
     private Long id;
     @Column(nullable = false, length=300)
     private String title;
-    @Column(nullable = false, length = 10000)
+    @Column(nullable = false, columnDefinition = "TEXT")
     private String content;
     @Column(nullable = false, length = 50)
     private String category;
